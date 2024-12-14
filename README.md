@@ -1,15 +1,30 @@
-# Finetune-gemma
+# Gemma Language Model
 
-If anyone is reading this, im lost here mate,I really need guidance.
+## Model Overview
 
-As I learn more about finetuning , LORA and QLORA, I realise im very interested in it.
+- **Model Name**: Gemma Causal Language Model
+- **Preprocessor**: `gemma_causal_lm_preprocessor`
+- **Tokenizer**: GemmaTokenizer
+  - Vocabulary Size: 256,000 tokens
 
-Goal for myself:
--- 1st fine-tuning project post on linkedin before this week ends
+## Model Architecture
 
+- **Backbone**: GemmaBackbone
+- **Total Parameters**: 2,614,341,888 (9.74 GB)
+  - All parameters are trainable
+  - No non-trainable parameters
 
-What ive learned so far is that to use fine-tuning we first need to Quantize the llm, using techniques like LORA and QLORA.
-Lower Order Rank Adaptation, because one cannot use the llm in its full capacity on personal systems with extremely limited processing lower.
+### Layer Details
+- Input Layers:
+  - Padding Mask
+  - Token IDs
+- Backbone Layer Output Shape: (None, None, 2304)
+- Token Embedding Layer Output Shape: (None, None, 256000)
 
-It is a natural trade off between Accuracy and usability, one we are more than ahappy to make.
+## Training Considerations
+- Full model parameter training
+- Large model size requires significant computational resources
+- Recommended for advanced machine learning environments
 
+## References
+- [Hugging Face Gemma Documentation](https://huggingface.co/google/gemma-2b)
