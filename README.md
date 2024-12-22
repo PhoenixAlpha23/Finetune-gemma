@@ -14,6 +14,7 @@
   - All parameters are trainable
   - No non-trainable parameters
 
+When LORA was applied, with rank = 4, theese trainable parameters turned into these 11.45mb. Much more easier to work with.
 ### Layer Details
 - Input Layers:
   - Padding Mask
