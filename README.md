@@ -130,8 +130,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Google's Gemma team for the base model
 - Kaggle for the competition platform
-- All contributors to the multilingual dataset
-
-## 📞 Contact
-
-Project Link: [https://github.com/PhoenixAlpha23/Finetune-gemma/](https://github.com/PhoenixAlpha23/Finetune-gemma)
