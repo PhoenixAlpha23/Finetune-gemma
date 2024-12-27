@@ -35,7 +35,7 @@ Each entry contains:
 ## 🛠️ Technical Implementation
 
 ### Model Architecture
-- Base Model: `Gemma 2B English`
+- Base Model: `Gemma 2B en`
 - Fine-tuning Method: Low-Rank Adaptation (LoRA)
   - Rank: 4
   - Original Parameters: 2.6B (9.74 GB)
