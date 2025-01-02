@@ -5,7 +5,9 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![Keras](https://img.shields.io/badge/keras-3.0%2B-red)](https://keras.io/)
 
-A specialized fine-tuning of Google's Gemma 2B model to understand and generate culturally-appropriate idioms across 71 languages. This project enables cross-cultural communication by matching figurative meanings with appropriate idioms while preserving cultural context.
+A specialized fine-tuning of Google's Gemma 2B model to understand and generate culturally-appropriate idioms across 71 languages. 
+
+This project is my "Google's Unlock Global Communcation" submission which enables cross-cultural/ language communication by matching figurative meanings with appropriate idioms while preserving cultural context.
 
 ## 🎯 Project Highlights
 
