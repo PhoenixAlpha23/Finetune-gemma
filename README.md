@@ -1,4 +1,4 @@
-# Gemma Idioms: Cross-Cultural Idiom Understanding with Fine-tuned LLMs 🌍
+# Fine-tuning Gemma for Idiom Understanding with Fine-tuned LLMs 🌍
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-Competition-blue)](https://www.kaggle.com/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -108,11 +108,10 @@ Cultural Context: This idiom comes from the Turkish culture
 
 ## 🌟 Features
 
-- ✅ Cross-cultural idiom matching
+- ✅ Cross-cultural idiom matching with contextual understanding.
 - ✅ Preservation of cultural context
-- ✅ Support for 71 languages
+- ✅ Support for 72 languages
 - ✅ Efficient fine-tuning with LoRA
-- ✅ Easy-to-use inference API
 
 ## 🤝 Contributing
 
